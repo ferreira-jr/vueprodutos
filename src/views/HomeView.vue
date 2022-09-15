@@ -1,9 +1,17 @@
-<script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+<template>
+  <div class="card">
+  <div class="card-header">
+  asdas
+  </div>
+  <div class="card-body">
+  dasdasd
+  </div>
+  </div>
+  
+</template>
+
+<script>
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style>
+</style>

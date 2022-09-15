@@ -1,5 +1,4 @@
 <template >
-    <div class="card text-center bg-dark mt-4" style="max-width: 20rem; background-color: beige !important;">
         <div class="form-signin w-100 m-auto">
             <form>
                 <img class="mb-2 mt-2" src="../assets/logo.svg" alt="" width="72" height="57">
@@ -12,12 +11,10 @@
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword" class="text-dark">Password</label>
                 </div>
-                <button class="w-100 btn btn-md btn-vue" type="submit">Entrar</button>
+                <button class="w-100 btn btn-md btn-outline-success" type="submit">Entrar</button>
                 <p class="mt-5 mb-3 text-muted"></p>
             </form>
         </div>
-
-    </div>
 </template>
 <script>
 export default {
@@ -25,16 +22,6 @@ export default {
 }
 </script>
 <style >
-.btn-vue {
-    background-color: #00bd7e;
-    color: #fff;
-    font-weight: 500;
-}
-.btn-vue:hover {
-    background-color: #1ea578 !important;
-    color: #fff !important;
-}
-
 .form-signin {
     max-width: 330px;
     padding: 15px;
